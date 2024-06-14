@@ -58,6 +58,8 @@ const CONFIG = {
       repo: "kkr010128/kelog",
       "issue-term": "pathname",
       label: "💬 Comments",
+      theme="github-dark",
+      crossorigin="anonymous",
     },
   },
   cusdis: {
