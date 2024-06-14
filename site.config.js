@@ -55,7 +55,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "kkr010128/kelog",
+      repo: "kkr010128/kelog",
       "issue-term": "pathname",
       label: "💬 Comments",
       theme="github-dark",
