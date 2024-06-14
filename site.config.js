@@ -4,7 +4,7 @@ const CONFIG = {
     name: "kkr010128",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Computer Engineering",
-    bio: "I develop everything using python.",
+    bio: "I like to learn everything related to CE",
     email: "kkr010128@icloud.com",
     linkedin: "",
     github: "kkr010128",
@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `kelog`,
-      href: "https://github.com/kkr010128",
+      name: `velog`,
+      href: "https://velog.io/@kk_0128_/posts",
     },
   ],
   // blog setting (required)
