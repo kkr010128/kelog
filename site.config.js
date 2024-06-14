@@ -55,11 +55,9 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "kkr010128/kelog",
-      "issue-term": "pathname",
-      label: "💬 Comments",
-      theme="github-dark",
-      crossorigin="anonymous"
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      "issue-term": "og:title",
+      label: "💬 Utterances",
     },
   },
   cusdis: {
