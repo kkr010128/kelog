@@ -52,6 +52,7 @@ const StyledWrapper = styled.div`
       margin: 0 auto;
       border: solid 3px white;
       border-radius: 50%
+      overflow: hidden;
       align-items: center;
       width: 70%;
       &:after {
