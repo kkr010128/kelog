@@ -36,7 +36,6 @@ const StyledWrapper = styled.div`
   > .content {
     margin-bottom: 2.25rem;
     border-radius: 1rem;
-    align-items: center;
 
     width: 100%;
     background-color: ${({ theme }) =>
@@ -49,6 +48,9 @@ const StyledWrapper = styled.div`
     }
     .top {
       position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       width: 70%;
       &:after {
         content: "";
