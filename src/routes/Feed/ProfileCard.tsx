@@ -50,6 +50,7 @@ const StyledWrapper = styled.div`
       position: relative;
       display: flex;
       margin: 0 auto;
+      border: solid 2px white;
       align-items: center;
       width: 70%;
       &:after {
