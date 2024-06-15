@@ -47,6 +47,7 @@ const StyledWrapper = styled.div`
     }
     .top {
       position: relative;
+      align-items: center;
       width: 70%;
       &:after {
         content: "";
