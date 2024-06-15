@@ -34,10 +34,10 @@ const TagList: React.FC<Props> = () => {
 
   return (
     <StyledWrapper>
-      <div className="top">
-        <Emoji>🏷️</Emoji> Tags
+      <div className="상단으로 이동">
+        <Emoji>🏷️</Emoji> 태그
       </div>
-      <div className="list">
+      <div className="목록 보기">
         {Object.keys(data).map((key) => (
           <a
             key={key}
