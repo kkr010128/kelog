@@ -26,7 +26,7 @@ const CONFIG = {
   link: "https:/kkr010128.vercel.app",
   since: "", // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "/thumb.jpg", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://media.discordapp.net/attachments/1068373857578274816/1251481156071854121/thumb.JPG?ex=666ebc27&is=666d6aa7&hm=946ffe1525a30567a6b3ffd587e911973bcbceefd5ec467e6998029d42f9839e&=&format=webp&width=604&height=1074", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
