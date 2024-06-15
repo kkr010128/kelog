@@ -36,6 +36,8 @@ const StyledWrapper = styled.div`
   > .content {
     margin-bottom: 2.25rem;
     border-radius: 1rem;
+    align-items: center;
+
     width: 100%;
     background-color: ${({ theme }) =>
       theme.scheme === "light" ? "white" : theme.colors.gray4};
@@ -47,7 +49,6 @@ const StyledWrapper = styled.div`
     }
     .top {
       position: relative;
-      align-items: center;
       width: 70%;
       &:after {
         content: "";
