@@ -49,7 +49,7 @@ const StyledWrapper = styled.div`
     .top {
       position: relative;
       display: flex;
-      flex-direction: column;
+      margin: 0 auto;
       align-items: center;
       width: 70%;
       &:after {
