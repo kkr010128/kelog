@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "kkr010128",
+    name: "kk_0128_",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Computer Engineering",
     bio: "I like to learn everything related to CE",
@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `velog`,
+      name: `Velog`,
       href: "https://velog.io/@kk_0128_/posts",
     },
   ],
