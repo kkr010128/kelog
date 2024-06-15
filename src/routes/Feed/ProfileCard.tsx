@@ -14,7 +14,7 @@ const ProfileCard: React.FC<Props> = () => {
       </div>
       <div className="content">
         <div className="top">
-          <Image src={CONFIG.profile.image} fill alt="" />
+          <Image src={CONFIG.profile.image} border = {solid 2px white} borderRadius = {50} fill alt="" />
         </div>
         <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
@@ -50,9 +50,6 @@ const StyledWrapper = styled.div`
       position: relative;
       display: flex;
       margin: 0 auto;
-      border: solid 3px white;
-      border-radius: 50%
-      overflow: hidden;
       align-items: center;
       width: 70%;
       &:after {
