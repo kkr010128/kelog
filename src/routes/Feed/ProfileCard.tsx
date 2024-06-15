@@ -14,7 +14,7 @@ const ProfileCard: React.FC<Props> = () => {
       </div>
       <div className="content">
         <div className="top">
-          <Image src={CONFIG.profile.image} width = {30%} height = {30%} fill alt="" />
+          <Image src={CONFIG.profile.image} fill alt="" />
         </div>
         <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
@@ -47,7 +47,7 @@ const StyledWrapper = styled.div`
     }
     .top {
       position: relative;
-      width: 100%;
+      width: 70%;
       &:after {
         content: "";
         display: block;
