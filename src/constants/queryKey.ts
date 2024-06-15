@@ -1,7 +1,7 @@
 export const queryKey = {
   scheme: () => ["scheme"],
   posts: () => ["posts"],
-  tags: () => ["tags"],
+  tags: () => ["Series"],
   categories: () => ["categories"],
   post: (slug: string) => ["post", slug],
 }
