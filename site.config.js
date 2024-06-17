@@ -43,13 +43,13 @@ const CONFIG = {
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+      siteVerification: "google70d826bc20f1e742.html",
     },
   },
   naverSearchAdvisor: {
     enable: false,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
+      siteVerification: "naverad0aef2b488c88e3d728a064634ff369",
     },
   },
   utterances: {
